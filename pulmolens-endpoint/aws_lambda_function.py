@@ -32,14 +32,21 @@ def _pulmo_lens(image):
     result = json.loads(result)
     print("Curr Result: ", result)
     
-    # # sending predicted class.
-    # y_pred = 0 if result[0] > result[1] else 1
-    
-    # sending predicted probability for most probable class.
-    # prob_result = result[0] if result[0] > result[1] else result[1]
-    
-    # return messages.
+    # return strings.
     normal_str = f"We predict you are normal (have no pneumonia) with a probability of: {result[0]}"
     pneumonic_str = f"We predict you have pneumonia with a probability of: {result[1]}"
-
-    return normal_str + "\n" + pneumonic_str
+    
+    if result[0]  > result[1]:
+        final_str = "Your diagnosis seems to not have any traces of pneumonia."
+    else:
+        final_str = "You seem to have pneumonia, please confirm with a medical professional!"
+    
+    return_response = {
+        'Normal Probability': normal_str,
+        'Pneuomic Probability': pneumonic_str,
+        
+        'Final Judgement': final_str
+    
+    }
+    
+    return return_response
