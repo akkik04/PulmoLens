@@ -6,7 +6,14 @@ PulmoLens is a deep learning model that uses AWS SageMaker and associated tools 
 
 PulmoLens is a project that uses deep learning to detect pneumonia in X-ray images. The project uses AWS SageMaker and associated tools such as Lambda, API-Gateway, S3, IAM, and CloudWatch. The model has been trained using machine learning fundamentals to provide highly accurate results.
 
-**Check out the video of the project in action [here](https://github.com/akkik04/PulmoLens/blob/main/assets/PulmoLens-InAction.mp4) (click 'view raw' to access video)**
+**Check out the video of the project in action:**
+
+<div style="display: flex; justify-content: center;">
+  <video width="700" height="400" controls>
+    <source src="https://github.com/akkik04/PulmoLens/raw/main/assets/PulmoLens-InAction.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ## Features 📋 
 
