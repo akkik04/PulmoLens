@@ -44,9 +44,7 @@ def _pulmo_lens(image):
     return_response = {
         'Normal Probability': normal_str,
         'Pneuomic Probability': pneumonic_str,
-        
         'Final Judgement': final_str
-    
     }
     
     return return_response
