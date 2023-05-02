@@ -23,6 +23,7 @@ PulmoLens is a project that uses deep learning to detect pneumonia in X-ray imag
 * Highly accurate results for a first-timer (validation accuracy of 85% & train accuracy of 94%)
 
 ## Architecture 🏗
+View the architecture diagram [here](assets/PulmoLens-Flowchart.jpg)
 
 PulmoLens uses a serverless architecture to deploy the deep learning model. The architecture includes:
 
