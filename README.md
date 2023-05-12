@@ -8,12 +8,8 @@ PulmoLens is a project that uses deep learning to detect pneumonia in X-ray imag
 
 **Check out the video of the project in action:**
 
-<div style="display: flex; justify-content: center;">
-  <video width="700" height="400" controls>
-    <source src="https://github.com/akkik04/PulmoLens/raw/main/assets/PulmoLens-InAction.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+https://github.com/akkik04/PulmoLens/assets/81925146/29385b1f-37cb-4db4-aee2-7e53d51c5d28
+
 
 ## Features 📋 
 
